@@ -3,6 +3,7 @@ firts workspace in docker
 
 # Build dockerfile
 
+
 ## Build the dockerfile image
 
 ```bash
@@ -25,6 +26,11 @@ docker save mi_imagen > mi_imagen.tar.gz
 
 ```bash
 docker rmi mi_imagen:v1
+```
+
+## Delete container
+```bash
+docker rm mi_container
 ```
 
 ## Load local image
